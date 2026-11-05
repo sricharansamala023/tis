@@ -1,0 +1,8 @@
+target/
+.classpath
+.project
+.settings/
+.idea/
+feedback/
+src/main/webapp/WEB-INF/feedback/feedback.txt
+.github/modernize/

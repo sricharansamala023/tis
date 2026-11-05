@@ -1,0 +1,1440 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+    Tourist data for 10 Indian cities (10 places each). Each <place> has:
+      name, category, location, description, history, visitingInfo, bestTime, duration, nearby, tips
+      <wikiTitle> - English Wikipedia article title; the page fetches that article's lead photograph.
+      <image>     - OPTIONAL direct image URL that overrides the Wikipedia photo.
+    Each <city> has attributes name, state, tagline, cover (Wikipedia title of its cover photo) and a <summary>.
+-->
+<touristCities>
+    <city name="Hyderabad" state="Telangana" tagline="City of Pearls" cover="Charminar">
+        <summary>City of Pearls and Nizams, where the Qutb Shahi legacy meets a modern skyline: Charminar, Golconda and a lakeside promenade.</summary>
+        <place>
+            <name>Charminar</name>
+            <category>Historical</category>
+            <location>Old City, Hyderabad, Telangana</location>
+            <description>An iconic mosque-monument with four grand minarets, standing at the heart of the old city and serving as the visual symbol of Hyderabad.</description>
+            <history>Built in 1591 by Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty, to commemorate the end of a deadly plague in the city and to mark the founding of Hyderabad.</history>
+            <visitingInfo>Open to visitors through the day; the surrounding Laad Bazaar and Makkah Masjid can be explored on the same trip. Climbing to the upper floor offers a view over the old city.</visitingInfo>
+            <bestTime>October to February, when the weather is cool and pleasant.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Laad Bazaar, Makkah Masjid, Chowmahalla Palace</nearby>
+            <tips>Visit early morning or evening to avoid crowds and heat; bargain for bangles and pearls in Laad Bazaar nearby.</tips>
+            <wikiTitle>Charminar</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Golconda Fort</name>
+            <category>Heritage</category>
+            <location>Ibrahim Bagh, Hyderabad, Telangana</location>
+            <description>A massive hilltop fortress that was once the capital of the Qutb Shahi kingdom and a global centre of diamond trade.</description>
+            <history>Originally a mud fort built by the Kakatiyas, it was rebuilt in granite by the Qutb Shahi rulers and later became famous for the Kohinoor and other legendary diamonds that passed through its markets.</history>
+            <visitingInfo>A guided walk through the fort covers palaces, armouries and the famous clapping point known for its acoustic design. A sound-and-light show is held in the evenings.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Qutb Shahi Tombs, Taramati Baradari</nearby>
+            <tips>Wear comfortable shoes for the climb and try the clapping point near the entrance to test the fort's famous acoustics.</tips>
+            <wikiTitle>Golconda</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Hussain Sagar Lake</name>
+            <category>Nature</category>
+            <location>Tank Bund, Hyderabad, Telangana</location>
+            <description>A large heart-shaped artificial lake in the middle of the city, home to a striking monolithic statue of Buddha on a central island.</description>
+            <history>Built in 1563 by Hussain Shah Wali during the reign of Ibrahim Quli Qutb Shah to supply water and connect the twin cities of Hyderabad and Secunderabad.</history>
+            <visitingInfo>Boat rides run through the day out to the Buddha statue; Tank Bund and Lumbini Park along the shore are popular for evening walks.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Lumbini Park, Necklace Road, Birla Mandir</nearby>
+            <tips>Evening boat rides offer pleasant views of the illuminated skyline around the lake.</tips>
+            <wikiTitle>Hussain Sagar</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Salar Jung Museum</name>
+            <category>Museum</category>
+            <location>Darushifa, Hyderabad, Telangana</location>
+            <description>One of the largest museums in India built almost entirely from a single family's private collection, spanning art and artifacts from across the world.</description>
+            <history>The collection was amassed by Salar Jung III, a former prime minister of Hyderabad state, and was later handed to the nation, becoming a museum of national importance.</history>
+            <visitingInfo>Closed on Fridays; galleries cover sculpture, textiles, manuscripts, clocks and decorative art from India, Europe, the Middle East and the Far East.</visitingInfo>
+            <bestTime>Year round, ideally in the cooler months of November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Charminar, Chowmahalla Palace, Osmania General Hospital</nearby>
+            <tips>Don't miss the musical clock gallery, which draws a crowd right before the hour strikes.</tips>
+            <wikiTitle>Salar Jung Museum</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chowmahalla Palace</name>
+            <category>Palace</category>
+            <location>Khilwat, Hyderabad, Telangana</location>
+            <description>An elegant four-palace complex that served as the seat of the Nizams of Hyderabad, with grand courtyards and a vintage car collection.</description>
+            <history>Construction began under the Nizams in the 18th century and continued over decades, with the complex used for royal functions and to receive dignitaries.</history>
+            <visitingInfo>Closed on Fridays; the Khilwat Mubarak durbar hall and the clock tower are highlights of the visit.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Charminar, Laad Bazaar, Salar Jung Museum</nearby>
+            <tips>Combine this with a Charminar visit since both are within walking distance of each other.</tips>
+            <wikiTitle>Chowmahalla Palace</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Ramoji Film City</name>
+            <category>Entertainment</category>
+            <location>Abdullapurmet, outskirts of Hyderabad, Telangana</location>
+            <description>One of the largest integrated film studio complexes in the world, open to visitors as a theme-park style attraction with film sets, gardens and live shows.</description>
+            <history>Founded by media entrepreneur Ramoji Rao in the 1990s, it has hosted the shooting of a very large number of Indian films in many languages.</history>
+            <visitingInfo>Guided studio tours cover film sets, gardens, stunt shows and rides. It lies outside the city, so plan a full-day outing.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>Full day</duration>
+            <nearby>Qutb Shahi Tombs, Golconda Fort</nearby>
+            <tips>Start early and wear comfortable shoes, as the tour involves a lot of walking.</tips>
+            <wikiTitle>Ramoji Film City</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Birla Mandir</name>
+            <category>Religious</category>
+            <location>Naubath Pahad, Hyderabad, Telangana</location>
+            <description>A white marble Hindu temple dedicated to Lord Venkateswara on a hilltop above Hussain Sagar, with fine views over the city.</description>
+            <history>Built by the Birla Foundation over about a decade and consecrated in 1976, using white marble brought from Rajasthan.</history>
+            <visitingInfo>Open to visitors of all faiths; footwear must be removed and modest dress is expected.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Hussain Sagar Lake, Lumbini Park, Necklace Road</nearby>
+            <tips>Visit near sunset for views of the city lights, and avoid festival days if you prefer fewer crowds.</tips>
+            <wikiTitle>Birla Mandir, Hyderabad</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Qutb Shahi Tombs</name>
+            <category>Heritage</category>
+            <location>Ibrahim Bagh, Hyderabad, Telangana</location>
+            <description>A quiet complex of large domed tombs of the Qutb Shahi rulers, set in landscaped gardens close to Golconda Fort.</description>
+            <history>The tombs were built over roughly two centuries as the resting places of the dynasty's rulers and their families.</history>
+            <visitingInfo>Visitors can walk among the granite and plasterwork tombs and the small mosque within the gardens.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Golconda Fort, Taramati Baradari</nearby>
+            <tips>Combine with Golconda Fort, since the two are only a short drive apart.</tips>
+            <wikiTitle>Qutb Shahi Tombs</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Nehru Zoological Park</name>
+            <category>Nature</category>
+            <location>Bahadurpura, Hyderabad, Telangana</location>
+            <description>One of the largest zoos in India, with animals in spacious open enclosures and a lion safari.</description>
+            <history>Opened to the public in 1963 beside Mir Alam Tank.</history>
+            <visitingInfo>Battery-operated vehicles and a safari bus help visitors cover the large grounds; check the current visiting days before going.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Mir Alam Tank, Salar Jung Museum</nearby>
+            <tips>Carry water, wear comfortable shoes and use the park vehicles to save energy.</tips>
+            <wikiTitle>Nehru Zoological Park</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Mecca Masjid</name>
+            <category>Religious</category>
+            <location>Near Charminar, Old City, Hyderabad, Telangana</location>
+            <description>One of the oldest and largest mosques in India, with a vast prayer hall and tall arches beside Charminar.</description>
+            <history>Construction began in 1617 under Muhammad Quli Qutb Shah and was completed in 1694 under Mughal rule.</history>
+            <visitingInfo>Open to visitors with modest dress; visits should respect prayer times.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Charminar, Laad Bazaar, Chowmahalla Palace</nearby>
+            <tips>Dress modestly and avoid the Friday midday congregation unless you are attending prayers.</tips>
+            <wikiTitle>Mecca Masjid, Hyderabad</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Jaipur" state="Rajasthan" tagline="The Pink City" cover="Hawa Mahal">
+        <summary>Rajasthan's royal capital, built around grand forts, jewel-box palaces and a centuries-old astronomical observatory.</summary>
+        <place>
+            <name>Hawa Mahal</name>
+            <category>Monument</category>
+            <location>Badi Choupad, Jaipur, Rajasthan</location>
+            <description>A pink sandstone palace with a honeycomb facade of 953 small windows, built so royal women could watch street life while remaining unseen.</description>
+            <history>Constructed in 1799 by Maharaja Sawai Pratap Singh, the five-storey facade was designed to resemble the crown of Lord Krishna.</history>
+            <visitingInfo>Best photographed from across the road in the morning light; the interior has a small museum and narrow ramps instead of stairs.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>45 minutes to 1 hour</duration>
+            <nearby>City Palace, Jantar Mantar</nearby>
+            <tips>Arrive early morning when the sun lights up the pink facade for the best photographs.</tips>
+            <wikiTitle>Hawa Mahal</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Amber Fort</name>
+            <category>Heritage</category>
+            <location>Amer, Jaipur, Rajasthan</location>
+            <description>A majestic hilltop fort-palace of pale yellow and pink sandstone overlooking Maota Lake, renowned for its mirrored halls.</description>
+            <history>Built by Raja Man Singh I, a Rajput general of Mughal emperor Akbar, and expanded by successive rulers over the following two centuries.</history>
+            <visitingInfo>Visitors can walk or take a jeep up to the fort; the Sheesh Mahal (mirror palace) and Ganesh Pol gate are highlights inside.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Jaigarh Fort, Maota Lake, Panna Meena ka Kund</nearby>
+            <tips>Go early to beat both the heat and the tour-bus crowds, and pair the visit with nearby Jaigarh Fort.</tips>
+            <wikiTitle>Amer Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>City Palace</name>
+            <category>Palace</category>
+            <location>Jaleb Chowk, Jaipur, Rajasthan</location>
+            <description>A sprawling royal complex blending Rajput and Mughal architecture, still partly home to Jaipur's former royal family.</description>
+            <history>Construction began under Maharaja Sawai Jai Singh II, the founder of Jaipur city, alongside the planning of the city itself in the early 18th century.</history>
+            <visitingInfo>The complex includes the Chandra Mahal, Mubarak Mahal and an armoury; certain private wings are open only with special-access tickets.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Hawa Mahal, Jantar Mantar</nearby>
+            <tips>Hire an audio guide or a local guide to appreciate the history behind each courtyard and gallery.</tips>
+            <wikiTitle>City Palace, Jaipur</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Jantar Mantar</name>
+            <category>Heritage</category>
+            <location>Gangori Bazaar, Jaipur, Rajasthan</location>
+            <description>A collection of large stone astronomical instruments, including the world's largest stone sundial, built for tracking celestial movements.</description>
+            <history>Constructed by Maharaja Sawai Jai Singh II between 1728 and 1734, it is one of five such observatories he built across northern India, and is a UNESCO World Heritage Site.</history>
+            <visitingInfo>Guides on site can explain how each instrument was used to track time, seasons and planetary positions.</visitingInfo>
+            <bestTime>October to March, around midday to see sundials in action.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>City Palace, Hawa Mahal</nearby>
+            <tips>Visit around noon to see the massive sundial cast a clear, readable shadow.</tips>
+            <wikiTitle>Jantar Mantar, Jaipur</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Jal Mahal</name>
+            <category>Palace</category>
+            <location>Man Sagar Lake, Jaipur, Rajasthan</location>
+            <description>A serene palace that appears to float on Man Sagar Lake, with four of its five floors submerged underwater.</description>
+            <history>Built in the 18th century, it was later renovated by Maharaja Sawai Jai Singh II and used as a lodge for royal duck-hunting parties.</history>
+            <visitingInfo>The interior is not open to the public, but the lakefront promenade offers excellent views and photo opportunities, especially at sunset.</visitingInfo>
+            <bestTime>Evenings, year round, best in the cooler months.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Nahargarh Fort, City Palace</nearby>
+            <tips>Visit at sunset when the palace and surrounding Aravalli hills are beautifully lit.</tips>
+            <wikiTitle>Jal Mahal</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Nahargarh Fort</name>
+            <category>Historical</category>
+            <location>Aravalli Hills, Jaipur, Rajasthan</location>
+            <description>A hilltop fort on the Aravalli ridge, known for sweeping views over Jaipur, especially at sunset.</description>
+            <history>Built in 1734 by Maharaja Sawai Jai Singh II as part of the city's defences.</history>
+            <visitingInfo>The ramparts, courtyards and pavilions offer panoramic views of the Pink City.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Jaigarh Fort, Jal Mahal</nearby>
+            <tips>Go in the late afternoon to watch the sun set over the city.</tips>
+            <wikiTitle>Nahargarh Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Jaigarh Fort</name>
+            <category>Historical</category>
+            <location>Amer, Jaipur, Rajasthan</location>
+            <description>A rugged hill fort above Amber Fort, famous for its massive ramparts and the Jaivana cannon, one of the largest cannons on wheels in the world.</description>
+            <history>Built by Sawai Jai Singh II in the early 18th century to protect Amber Fort and its palace complex.</history>
+            <visitingInfo>Linked to Amber Fort by a fortified passage; inside are palaces, a small museum and large water-storage structures.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Amber Fort, Nahargarh Fort, Maota Lake</nearby>
+            <tips>Visit after Amber Fort and carry water, as there is little shade on the ramparts.</tips>
+            <wikiTitle>Jaigarh Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Albert Hall Museum</name>
+            <category>Museum</category>
+            <location>Ram Niwas Garden, Jaipur, Rajasthan</location>
+            <description>The oldest museum in Rajasthan, set in a striking Indo-Saracenic building with galleries of art, textiles, carpets and an Egyptian mummy.</description>
+            <history>Designed by Samuel Swinton Jacob, its foundation was laid in 1876 and it opened as a museum in 1887.</history>
+            <visitingInfo>Galleries show decorative arts, miniature paintings and weapons; the building is beautifully lit after dark.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Ram Niwas Garden, Hawa Mahal, City Palace</nearby>
+            <tips>Visit in the evening to see the building illuminated.</tips>
+            <wikiTitle>Albert Hall Museum</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Galtaji Temple</name>
+            <category>Religious</category>
+            <location>Galta Gorge, Jaipur, Rajasthan</location>
+            <description>An ancient Hindu pilgrimage complex of temples, pavilions and natural spring-fed water tanks set in a gorge in the Aravalli hills, also called the Monkey Temple.</description>
+            <history>A place of pilgrimage for centuries, the complex was later expanded with pink sandstone temples and sacred water tanks.</history>
+            <visitingInfo>Reached by a short walk through the gorge; many monkeys live here, so keep food out of sight.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Hawa Mahal, Old City bazaars</nearby>
+            <tips>Wear sturdy footwear and avoid carrying loose food or shiny items.</tips>
+            <wikiTitle>Galtaji</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chokhi Dhani</name>
+            <category>Entertainment</category>
+            <location>Tonk Road, Jaipur, Rajasthan</location>
+            <description>A Rajasthani village-themed resort and cultural complex offering folk dance, puppet shows, camel rides and a traditional meal.</description>
+            <history>Created as a themed village to showcase Rajasthani folk culture, food and hospitality to visitors.</history>
+            <visitingInfo>Best visited in the evening, when performances and dinner take place.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>3 hours</duration>
+            <nearby>Sanganer, Jawahar Circle</nearby>
+            <tips>Go in the evening and keep time for the village-style meal.</tips>
+            <wikiTitle>Chokhi Dhani</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Chennai" state="Tamil Nadu" tagline="Gateway of the South" cover="Kapaleeshwarar Temple">
+        <summary>Dravidian temples, colonial forts and one of the longest city beaches in the world share the Bay of Bengal.</summary>
+        <place>
+            <name>Marina Beach</name>
+            <category>Beach</category>
+            <location>Marina, Chennai, Tamil Nadu</location>
+            <description>One of the longest urban beaches in the world, stretching along the Bay of Bengal with a lively promenade and street-food stalls.</description>
+            <history>Developed in the late 19th century under Governor Mountstuart Elphinstone Grant Duff, the beach has since become a cultural landmark and a hub of public life in Chennai.</history>
+            <visitingInfo>Best visited in the early morning or evening; several memorials and statues line the promenade along the beach road.</visitingInfo>
+            <bestTime>November to February, and early mornings or evenings year round.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Kapaleeshwarar Temple, Santhome Basilica</nearby>
+            <tips>Avoid swimming due to strong undercurrents; enjoy sunrise walks and local snacks like sundal instead.</tips>
+            <wikiTitle>Marina Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Kapaleeshwarar Temple</name>
+            <category>Religious</category>
+            <location>Mylapore, Chennai, Tamil Nadu</location>
+            <description>An ancient Dravidian-style temple dedicated to Lord Shiva, recognised by its tall, colourfully sculpted gopuram (gateway tower).</description>
+            <history>The present structure dates to around the 16th century, built to replace an earlier temple destroyed by Portuguese colonists, continuing a much older Mylapore temple tradition.</history>
+            <visitingInfo>Open through the day with a break at midday; modest dress is expected and footwear must be left outside.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Marina Beach, Santhome Basilica</nearby>
+            <tips>Visit during the Arubathimoovar festival for a vibrant display of temple processions.</tips>
+            <wikiTitle>Kapaleeshwarar Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Fort St. George</name>
+            <category>Historical</category>
+            <location>Fort St. George, Chennai, Tamil Nadu</location>
+            <description>The first English fortress built in India, now housing a museum and the Tamil Nadu Legislative Assembly.</description>
+            <history>Built by the British East India Company in 1644, it became the nucleus around which the city of Madras (modern Chennai) grew.</history>
+            <visitingInfo>The fort museum displays colonial-era artifacts, coins, uniforms and paintings; St. Mary's Church inside is one of the oldest Anglican churches in Asia.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Government Museum, Marina Beach</nearby>
+            <tips>Check ahead as parts of the fort may have restricted access when the legislative assembly is in session.</tips>
+            <wikiTitle>Fort St. George, India</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Government Museum</name>
+            <category>Museum</category>
+            <location>Egmore, Chennai, Tamil Nadu</location>
+            <description>One of the oldest museums in India, with extensive galleries covering archaeology, numismatics, zoology and a celebrated bronze icon gallery.</description>
+            <history>Established in 1851, the museum complex grew over the following century to include the connected National Art Gallery in a distinctive red Indo-Saracenic building.</history>
+            <visitingInfo>Closed on Fridays; the bronze gallery showcasing Chola-era sculptures is a particular highlight.</visitingInfo>
+            <bestTime>Year round, ideally cooler months from November to February.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Fort St. George, Chennai Central</nearby>
+            <tips>Set aside extra time for the bronze gallery, considered one of the finest collections of South Indian bronzes.</tips>
+            <wikiTitle>Government Museum, Chennai</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Santhome Basilica</name>
+            <category>Religious</category>
+            <location>Santhome, Chennai, Tamil Nadu</location>
+            <description>A striking neo-Gothic Roman Catholic basilica built over the tomb of St. Thomas the Apostle, one of only three churches in the world built over an apostle's tomb.</description>
+            <history>The present structure was built by British colonists in 1896 over an earlier Portuguese-era church, marking the traditional site of St. Thomas's burial.</history>
+            <visitingInfo>Open to visitors of all faiths; a small museum beside the church displays relics and historical artifacts.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>45 minutes to 1 hour</duration>
+            <nearby>Marina Beach, Kapaleeshwarar Temple</nearby>
+            <tips>Visit the adjoining museum to learn about the church's connection to the apostle's legend.</tips>
+            <wikiTitle>San Thome Basilica</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Shore Temple</name>
+            <category>Heritage</category>
+            <location>Mahabalipuram, near Chennai, Tamil Nadu</location>
+            <description>A UNESCO-listed 8th-century stone temple on the Bay of Bengal shore at Mahabalipuram, among the oldest structural stone temples in South India.</description>
+            <history>Built under the Pallava king Narasimhavarman II in the early 8th century.</history>
+            <visitingInfo>About an hour's drive from Chennai along the East Coast Road; the Pancha Rathas and Arjuna's Penance can be visited on the same trip.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>Full day trip</duration>
+            <nearby>Pancha Rathas, Arjuna's Penance, Krishna's Butter Ball</nearby>
+            <tips>Take the scenic East Coast Road and try fresh seafood in town.</tips>
+            <wikiTitle>Shore Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Guindy National Park</name>
+            <category>Nature</category>
+            <location>Guindy, Chennai, Tamil Nadu</location>
+            <description>One of the smallest national parks in India and unusual for lying inside a major city, home to blackbuck, spotted deer and many birds.</description>
+            <history>The area was developed from forest land around a former governor's residence and became a national park in the 1970s.</history>
+            <visitingInfo>Trails wind through scrub forest, and the adjacent Snake Park is a popular add-on.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Snake Park, Raj Bhavan</nearby>
+            <tips>Visit in the early morning, when animals are most active.</tips>
+            <wikiTitle>Guindy National Park</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Valluvar Kottam</name>
+            <category>Monument</category>
+            <location>Nungambakkam, Chennai, Tamil Nadu</location>
+            <description>A memorial to the Tamil poet-saint Thiruvalluvar, shaped like a temple chariot, with a large auditorium.</description>
+            <history>Opened in 1976 to honour Thiruvalluvar, author of the Tirukkural; the chariot replicates a temple car at Thiruvarur.</history>
+            <visitingInfo>The base carries the couplets of the Tirukkural carved on stone panels.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Nungambakkam, Government Museum</nearby>
+            <tips>Read a few couplets on the panels to see how the Tirukkural is organised.</tips>
+            <wikiTitle>Valluvar Kottam</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Elliot's Beach</name>
+            <category>Beach</category>
+            <location>Besant Nagar, Chennai, Tamil Nadu</location>
+            <description>A calmer, cleaner beach in Besant Nagar, popular for evening walks, cafes and the nearby Ashtalakshmi Temple.</description>
+            <history>Named after Edward Elliot, a British official in Madras, the beach has been a leisure spot since the colonial period.</history>
+            <visitingInfo>Quieter than Marina Beach, with food stalls and cafes nearby; swimming is not advised because of currents.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Ashtalakshmi Temple, Schmidt Memorial</nearby>
+            <tips>Visit at sunrise or sunset when the light and breeze are best.</tips>
+            <wikiTitle>Elliot's Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Arignar Anna Zoological Park</name>
+            <category>Nature</category>
+            <location>Vandalur, Chennai, Tamil Nadu</location>
+            <description>A large zoological park at Vandalur on the outskirts of Chennai, with open enclosures, a lion safari and many bird species.</description>
+            <history>Founded in 1855 as the Madras zoo and moved to its present Vandalur site in the 20th century.</history>
+            <visitingInfo>Battery vehicles and safari buses operate inside; plan for a long day of walking.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Vandalur Reserve Forest</nearby>
+            <tips>Go early and carry water.</tips>
+            <wikiTitle>Arignar Anna Zoological Park</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Visakhapatnam" state="Andhra Pradesh" tagline="Jewel of the East Coast" cover="Ramakrishna Beach">
+        <summary>A coastal city framed by the Eastern Ghats, with golden beaches, hilltop parks and the gateway to Araku Valley.</summary>
+        <place>
+            <name>RK Beach</name>
+            <category>Beach</category>
+            <location>Ramakrishna Beach Road, Visakhapatnam, Andhra Pradesh</location>
+            <description>A popular city beach and promenade along the Bay of Bengal, lined with parks, statues and the retired submarine INS Kurusura.</description>
+            <history>Named after the Ramakrishna Mission located along its shore, the beach road developed through the 20th century into the city's main public promenade.</history>
+            <visitingInfo>The promenade is best explored on foot in the evening, with several food stalls and the submarine museum nearby.</visitingInfo>
+            <bestTime>October to February, evenings year round.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Submarine Museum, Kailasagiri</nearby>
+            <tips>Combine an evening walk here with a visit to the nearby Submarine Museum before it closes.</tips>
+            <wikiTitle>Ramakrishna Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Kailasagiri</name>
+            <category>Nature</category>
+            <location>Kailasagiri Hill, Visakhapatnam, Andhra Pradesh</location>
+            <description>A hilltop park offering panoramic views over the city and coastline, reachable by road or a scenic ropeway.</description>
+            <history>Developed by the Visakhapatnam Urban Development Authority as a public recreational park on the hill overlooking the city and harbour.</history>
+            <visitingInfo>A ropeway (cable car) runs to the top; the park includes large statues of Shiva and Parvati and a toy train.</visitingInfo>
+            <bestTime>November to February, or sunset any time of year.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>RK Beach, Visakha Museum</nearby>
+            <tips>Take the ropeway up for sweeping views of the city, harbour and coastline in one frame.</tips>
+            <wikiTitle>Kailasagiri</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Submarine Museum</name>
+            <category>Museum</category>
+            <location>RK Beach, Visakhapatnam, Andhra Pradesh</location>
+            <description>A decommissioned Indian Navy submarine, INS Kurusura, converted into a walk-through museum, the first of its kind in Asia.</description>
+            <history>INS Kurusura served the Indian Navy for nearly three decades before being decommissioned and installed on the beach in 2002 as a public museum.</history>
+            <visitingInfo>Closed on Mondays; visitors walk through the actual submarine compartments to see torpedo tubes, control rooms and crew quarters.</visitingInfo>
+            <bestTime>Year round; mornings are less crowded.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>RK Beach, Kailasagiri</nearby>
+            <tips>The submarine interior is narrow and can get warm, so visit in the cooler part of the day.</tips>
+            <wikiTitle>INS Kurusura Submarine Museum</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Araku Valley</name>
+            <category>Nature</category>
+            <location>Araku Valley, Eastern Ghats, near Visakhapatnam, Andhra Pradesh</location>
+            <description>A scenic hill station in the Eastern Ghats known for coffee plantations, waterfalls, tribal culture and a spectacular train journey through tunnels and valleys.</description>
+            <history>Home to several tribal communities for generations, the valley's coffee cultivation and tourism infrastructure grew through the 20th century, aided by the scenic Kirandul railway line.</history>
+            <visitingInfo>Best reached by the Araku Valley train from Visakhapatnam, which passes through numerous tunnels and bridges; the Tribal Museum is a key stop.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>Full day trip</duration>
+            <nearby>Borra Caves, Tribal Museum, Ananthagiri Hills</nearby>
+            <tips>Book the Araku train tickets in advance and try locally grown Araku coffee.</tips>
+            <wikiTitle>Araku Valley</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Borra Caves</name>
+            <category>Adventure</category>
+            <location>Ananthagiri Mandal, near Araku Valley, Andhra Pradesh</location>
+            <description>Ancient limestone caves with striking stalactite and stalagmite formations, among the largest cave systems in India.</description>
+            <history>Believed to be over a million years old, the caves were discovered in modern times by British geologist William King George in 1807.</history>
+            <visitingInfo>Well-lit walkways guide visitors through the cave chambers; the site is often combined with a trip to Araku Valley.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Araku Valley, Ananthagiri Hills</nearby>
+            <tips>Wear sturdy footwear since the cave floor can be slippery and uneven.</tips>
+            <wikiTitle>Borra Caves</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Rushikonda Beach</name>
+            <category>Beach</category>
+            <location>Rushikonda, Visakhapatnam, Andhra Pradesh</location>
+            <description>A golden beach below green hills, known for its clear water and water sports.</description>
+            <history>On the Bay of Bengal north of the city, it has grown into one of Vizag's main leisure and water-sports spots.</history>
+            <visitingInfo>Water sports are available in season; swim only where lifeguards permit and follow their instructions.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Kailasagiri, Thotlakonda</nearby>
+            <tips>Go in the morning for fewer crowds and heed the lifeguard flags.</tips>
+            <wikiTitle>Rushikonda Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Simhachalam Temple</name>
+            <category>Religious</category>
+            <location>Simhachalam Hill, Visakhapatnam, Andhra Pradesh</location>
+            <description>A hilltop temple of Lord Varaha Lakshmi Narasimha, a fine example of Kalinga and Dravidian temple architecture.</description>
+            <history>Records show the temple was patronised and expanded by several dynasties over many centuries.</history>
+            <visitingInfo>The deity is covered with sandalwood paste for most of the year and revealed on a special day, which draws very large crowds.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Kailasagiri, Visakha Museum</nearby>
+            <tips>Dress modestly and expect long queues around festivals.</tips>
+            <wikiTitle>Simhachalam Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Yarada Beach</name>
+            <category>Beach</category>
+            <location>Yarada, Visakhapatnam, Andhra Pradesh</location>
+            <description>A secluded beach enclosed by hills on three sides, with the sea on the fourth.</description>
+            <history>The beach lies near Gangavaram Port at the southern edge of the city and is reached by a scenic coastal drive.</history>
+            <visitingInfo>Quieter than the city beaches with few facilities, so carry water and snacks.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Dolphin's Nose, Gangavaram Beach</nearby>
+            <tips>Bring food and water, and avoid swimming in rough seas.</tips>
+            <wikiTitle>Yarada Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Thotlakonda</name>
+            <category>Historical</category>
+            <location>Bheemunipatnam Road, Visakhapatnam, Andhra Pradesh</location>
+            <description>The ruins of an ancient Buddhist monastery complex on a hill overlooking the Bay of Bengal.</description>
+            <history>The site dates from the centuries around the start of the Common Era and was brought to light by archaeologists in the 20th century.</history>
+            <visitingInfo>The hilltop has the remains of stupas, monastic halls and cisterns, with sea views.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Rushikonda Beach, Bavikonda</nearby>
+            <tips>Visit in the morning, as there is little shade on the hill.</tips>
+            <wikiTitle>Thotlakonda</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Indira Gandhi Zoological Park</name>
+            <category>Nature</category>
+            <location>Kambalakonda, Visakhapatnam, Andhra Pradesh</location>
+            <description>A large zoo set among forested hills with open enclosures and a lush backdrop.</description>
+            <history>Opened in the 1970s in the foothills of the Eastern Ghats near Kambalakonda.</history>
+            <visitingInfo>A good half-day stop; check current visiting days before you go.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Rushikonda Beach, Kailasagiri</nearby>
+            <tips>Wear comfortable shoes and carry water.</tips>
+            <wikiTitle>Indira Gandhi Zoological Park</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Delhi" state="Delhi" tagline="Heart of India" cover="India Gate">
+        <summary>India's capital, layered with Mughal tombs, sultanate towers and the ceremonial avenues of Lutyens' Delhi.</summary>
+        <place>
+            <name>India Gate</name>
+            <category>Monument</category>
+            <location>Rajpath, New Delhi</location>
+            <description>A grand sandstone war memorial arch honouring Indian soldiers who died in World War I, set amid expansive lawns.</description>
+            <history>Designed by British architect Edwin Lutyens and completed in 1931, it lists the names of over 13,000 soldiers on its walls.</history>
+            <visitingInfo>The surrounding lawns are popular for evening walks and picnics; the monument is beautifully illuminated after dark.</visitingInfo>
+            <bestTime>October to March, evenings especially.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Rashtrapati Bhavan, National War Memorial</nearby>
+            <tips>Visit after sunset to see the monument lit up and enjoy the lively food-stall atmosphere on the lawns.</tips>
+            <wikiTitle>India Gate</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Red Fort</name>
+            <category>Heritage</category>
+            <location>Netaji Subhash Marg, Old Delhi</location>
+            <description>A massive red sandstone Mughal fortress that served as the main residence of Mughal emperors for nearly 200 years.</description>
+            <history>Built by Emperor Shah Jahan starting in 1638 as the palace of his new capital, Shahjahanabad; it is a UNESCO World Heritage Site and the venue for the Prime Minister's Independence Day address.</history>
+            <visitingInfo>Closed on Mondays; a sound-and-light show in the evening narrates the fort's history, and the Lahori Gate market lies just outside.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Jama Masjid, Chandni Chowk</nearby>
+            <tips>Combine your visit with Chandni Chowk market just outside for food and shopping.</tips>
+            <wikiTitle>Red Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Qutub Minar</name>
+            <category>Monument</category>
+            <location>Mehrauli, New Delhi</location>
+            <description>The tallest brick minaret in the world, a soaring tower of intricately carved red sandstone and marble.</description>
+            <history>Construction began in 1192 under Qutb-ud-din Aibak, founder of the Delhi Sultanate, and was completed by his successors; it is a UNESCO World Heritage Site.</history>
+            <visitingInfo>The surrounding Qutub complex includes the Iron Pillar and several other historic tombs and mosques worth exploring on the same visit.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Mehrauli Archaeological Park, Iron Pillar</nearby>
+            <tips>Explore the wider Qutub complex, not just the tower itself, to see the historic Iron Pillar and surrounding ruins.</tips>
+            <wikiTitle>Qutb Minar</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Lotus Temple</name>
+            <category>Religious</category>
+            <location>Bahapur, New Delhi</location>
+            <description>A strikingly modern Bahá'í House of Worship shaped like a blooming lotus flower, open to people of all faiths for quiet reflection.</description>
+            <history>Completed in 1986 and designed by architect Fariborz Sahba, it has won numerous architectural awards and is one of the most visited buildings in the world.</history>
+            <visitingInfo>Closed on Mondays; visitors are asked to maintain silence inside the main prayer hall regardless of their faith.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>ISKCON Temple, Kalkaji Mandir</nearby>
+            <tips>Arrive early to avoid long entry queues, especially on weekends.</tips>
+            <wikiTitle>Lotus Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Humayun's Tomb</name>
+            <category>Heritage</category>
+            <location>Nizamuddin East, New Delhi</location>
+            <description>A grand garden tomb of red sandstone and white marble that set the architectural template later refined in the Taj Mahal.</description>
+            <history>Commissioned in 1565 by Empress Bega Begum, widow of Mughal Emperor Humayun, and completed nine years later; it is a UNESCO World Heritage Site.</history>
+            <visitingInfo>Set within a large Persian-style char-bagh garden, the tomb complex also contains several smaller Mughal-era monuments worth exploring.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Nizamuddin Dargah, Sunder Nursery</nearby>
+            <tips>Pair this visit with nearby Sunder Nursery, a beautifully restored heritage park.</tips>
+            <wikiTitle>Humayun's Tomb</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Jama Masjid Delhi</name>
+            <category>Religious</category>
+            <location>Old Delhi</location>
+            <description>One of the largest mosques in India, with a vast courtyard and tall minarets facing the Red Fort.</description>
+            <history>Commissioned by Shah Jahan and completed in 1656.</history>
+            <visitingInfo>Open to visitors outside prayer times with modest dress; the minaret climb gives views over Old Delhi.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Red Fort, Chandni Chowk</nearby>
+            <tips>Cover shoulders and knees and avoid prayer times.</tips>
+            <wikiTitle>Jama Masjid, Delhi</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Akshardham Temple</name>
+            <category>Religious</category>
+            <location>Noida Mor, New Delhi</location>
+            <description>A grand modern Hindu temple complex of pink sandstone and marble with exhibitions, gardens and an evening water show.</description>
+            <history>Inaugurated in 2005 and built in the traditional Indian temple style by the BAPS organisation.</history>
+            <visitingInfo>Phones, cameras and bags are not allowed inside and lockers are provided; check the current visiting days before going.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>3 to 4 hours</duration>
+            <nearby>Yamuna Riverfront, Mayur Vihar</nearby>
+            <tips>Travel light, as electronics and large bags are not permitted.</tips>
+            <wikiTitle>Akshardham (Delhi)</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chandni Chowk</name>
+            <category>Heritage</category>
+            <location>Old Delhi</location>
+            <description>The famous old market street of Delhi, packed with food stalls, spice markets, havelis and temples.</description>
+            <history>Laid out in the 17th century as the main avenue of Shahjahanabad, and planned with the help of Shah Jahan's daughter Jahanara.</history>
+            <visitingInfo>Best explored on foot or by cycle-rickshaw; lanes include Paranthe Wali Gali and the Khari Baoli spice market.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Red Fort, Jama Masjid, Gurudwara Sis Ganj Sahib</nearby>
+            <tips>Go hungry, carry small cash and watch your belongings in the crowds.</tips>
+            <wikiTitle>Chandni Chowk</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Rashtrapati Bhavan</name>
+            <category>Monument</category>
+            <location>Raisina Hill, New Delhi</location>
+            <description>The official residence of the President of India, a huge Lutyens-designed building at the head of Rajpath.</description>
+            <history>Designed by Edwin Lutyens and completed around 1929 as the Viceroy's House.</history>
+            <visitingInfo>Public visits to the building and the Amrit Udyan gardens run on booking, with the gardens opening to the public in late winter.</visitingInfo>
+            <bestTime>February to March for the gardens, otherwise October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>India Gate, Parliament House</nearby>
+            <tips>Book in advance and carry a government photo ID.</tips>
+            <wikiTitle>Rashtrapati Bhavan</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Lodhi Garden</name>
+            <category>Nature</category>
+            <location>Lodhi Road, New Delhi</location>
+            <description>A large landscaped city park scattered with 15th-century tombs of the Sayyid and Lodi dynasties.</description>
+            <history>The tombs date from the 15th and 16th centuries; the area was landscaped as a garden in the 1930s.</history>
+            <visitingInfo>Popular for morning walks, picnics and photography among the old domes.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Safdarjung Tomb, Humayun's Tomb</nearby>
+            <tips>Visit at sunrise or late afternoon for soft light.</tips>
+            <wikiTitle>Lodi Gardens</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Mumbai" state="Maharashtra" tagline="City of Dreams" cover="Gateway of India">
+        <summary>India's financial and film capital: colonial landmarks, sea promenades, ancient island caves and a glittering waterfront.</summary>
+        <place>
+            <name>Gateway of India</name>
+            <category>Monument</category>
+            <location>Apollo Bunder, Colaba, Mumbai, Maharashtra</location>
+            <description>A basalt arch monument on the waterfront overlooking the Arabian Sea and the city's most famous landmark.</description>
+            <history>Built to commemorate the 1911 visit of King George V and Queen Mary and completed in 1924.</history>
+            <visitingInfo>Ferries to Elephanta Island leave from here, and the busy promenade has the Taj Mahal Palace hotel beside it.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Taj Mahal Palace Hotel, Colaba Causeway, Chhatrapati Shivaji Maharaj Vastu Sangrahalaya</nearby>
+            <tips>Visit early morning or late evening and be wary of touts.</tips>
+            <wikiTitle>Gateway of India</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Marine Drive</name>
+            <category>Entertainment</category>
+            <location>Netaji Subhash Chandra Bose Road, South Mumbai, Maharashtra</location>
+            <description>A curved boulevard along the Arabian Sea, nicknamed the Queen's Necklace for its lights at night.</description>
+            <history>Reclaimed from the sea in the early 20th century and lined with Art Deco buildings from the 1930s.</history>
+            <visitingInfo>A favourite sunset spot with a long seafront walkway.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Girgaon Chowpatty, Wankhede Stadium</nearby>
+            <tips>Go at sunset and stay for the night lights; avoid high-tide days in the monsoon.</tips>
+            <wikiTitle>Marine Drive, Mumbai</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chhatrapati Shivaji Maharaj Terminus</name>
+            <category>Heritage</category>
+            <location>Fort, South Mumbai, Maharashtra</location>
+            <description>A UNESCO-listed Victorian Gothic railway terminus and one of the busiest stations in India.</description>
+            <history>Designed by F. W. Stevens and completed in 1888 as Victoria Terminus.</history>
+            <visitingInfo>Best admired from outside and across the road, where the carved stonework and domes can be seen.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Crawford Market, Gateway of India</nearby>
+            <tips>Visit outside rush hour for photographs and mind your belongings.</tips>
+            <wikiTitle>Chhatrapati Shivaji Terminus</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Elephanta Caves</name>
+            <category>Heritage</category>
+            <location>Elephanta Island, Mumbai Harbour, Maharashtra</location>
+            <description>UNESCO-listed rock-cut cave temples on an island, dedicated to Shiva and famed for the huge Trimurti sculpture.</description>
+            <history>Carved between roughly the 5th and 8th centuries; the Portuguese named the island after an elephant statue they found.</history>
+            <visitingInfo>Reached by a ferry from the Gateway of India followed by a climb of steps; check the weekly closing day.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Gateway of India</nearby>
+            <tips>Check ferry timings, as services are limited during the monsoon.</tips>
+            <wikiTitle>Elephanta Caves</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Haji Ali Dargah</name>
+            <category>Religious</category>
+            <location>Worli Bay, Mumbai, Maharashtra</location>
+            <description>A mosque and tomb on an islet in Worli Bay, reached by a causeway that is submerged at high tide.</description>
+            <history>Built in 1431 in memory of the saint Haji Ali Shah Bukhari.</history>
+            <visitingInfo>Open to visitors of all faiths with modest dress; check tide timings, as the path floods.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Mahalaxmi Temple, Worli Sea Face</nearby>
+            <tips>Check tide timings before you go and dress modestly.</tips>
+            <wikiTitle>Haji Ali Dargah</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Sanjay Gandhi National Park</name>
+            <category>Nature</category>
+            <location>Borivali, Mumbai, Maharashtra</location>
+            <description>A large forest park inside the city, with lakes, leopards, rich birdlife and the ancient Kanheri Caves.</description>
+            <history>Established as a national park in 1969 and later renamed; the Kanheri Caves inside were carved as Buddhist monasteries.</history>
+            <visitingInfo>Nature trails, a safari and the Kanheri Caves make for a full outing within city limits.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Kanheri Caves, Vihar Lake</nearby>
+            <tips>Start early and wear sturdy shoes.</tips>
+            <wikiTitle>Sanjay Gandhi National Park</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Juhu Beach</name>
+            <category>Beach</category>
+            <location>Juhu, Mumbai, Maharashtra</location>
+            <description>A famous city beach known for street food such as pav bhaji and bhel puri and its lively evening crowds.</description>
+            <history>It became a popular seaside retreat for Mumbaikars and film personalities during the 20th century.</history>
+            <visitingInfo>Better for walking and food than swimming.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>ISKCON Temple Juhu, Prithvi Theatre</nearby>
+            <tips>Avoid swimming and pick busy, clean stalls for street food.</tips>
+            <wikiTitle>Juhu Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Siddhivinayak Temple</name>
+            <category>Religious</category>
+            <location>Prabhadevi, Mumbai, Maharashtra</location>
+            <description>One of Mumbai's most visited temples, dedicated to Lord Ganesha.</description>
+            <history>First built in 1801 and rebuilt over the years.</history>
+            <visitingInfo>Queues are long on Tuesdays and festival days; modest dress is expected.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Worli Sea Face, Haji Ali Dargah</nearby>
+            <tips>Go on a weekday morning to avoid crowds.</tips>
+            <wikiTitle>Siddhivinayak Temple, Mumbai</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chhatrapati Shivaji Maharaj Vastu Sangrahalaya</name>
+            <category>Museum</category>
+            <location>Fort, South Mumbai, Maharashtra</location>
+            <description>A major museum in an Indo-Saracenic building, with art, archaeology and natural history collections, formerly the Prince of Wales Museum.</description>
+            <history>Designed by George Wittet and opened to the public in 1922.</history>
+            <visitingInfo>Galleries cover miniature painting, sculpture and decorative arts, with a garden courtyard.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Gateway of India, Jehangir Art Gallery</nearby>
+            <tips>Allow time for the miniature paintings and the garden courtyard.</tips>
+            <wikiTitle>Chhatrapati Shivaji Maharaj Vastu Sangrahalaya</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Banganga Tank</name>
+            <category>Heritage</category>
+            <location>Walkeshwar, Malabar Hill, Mumbai, Maharashtra</location>
+            <description>An ancient sacred water tank surrounded by small temples and old houses, a calm pocket in South Mumbai.</description>
+            <history>Linked in legend to Lord Rama, the tank is believed to date back to the 12th century and was rebuilt in the 18th century.</history>
+            <visitingInfo>The nearby Walkeshwar Temple and stepped tank are quietest in the early morning.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Malabar Hill, Hanging Gardens</nearby>
+            <tips>Visit early and respect the religious setting.</tips>
+            <wikiTitle>Banganga Tank</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Agra" state="Uttar Pradesh" tagline="Home of the Taj" cover="Taj Mahal">
+        <summary>The Mughal capital of the 16th and 17th centuries, where the Taj Mahal, a red sandstone fort and Akbar's ghost city still stand.</summary>
+        <place>
+            <name>Taj Mahal</name>
+            <category>Monument</category>
+            <location>Dharmapuri, Agra, Uttar Pradesh</location>
+            <description>The ivory-white marble mausoleum on the Yamuna, a UNESCO World Heritage Site and one of the world's most famous buildings.</description>
+            <history>Commissioned by Shah Jahan in memory of his wife Mumtaz Mahal; the main mausoleum was completed around 1643 and the full complex by about 1653.</history>
+            <visitingInfo>It is closed to general visitors on Fridays; sunrise visits are popular and tickets should be bought through official channels.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Agra Fort, Mehtab Bagh</nearby>
+            <tips>Go at sunrise, book official tickets online and avoid Fridays.</tips>
+            <wikiTitle>Taj Mahal</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Agra Fort</name>
+            <category>Historical</category>
+            <location>Rakabganj, Agra, Uttar Pradesh</location>
+            <description>A massive red sandstone fort and UNESCO site that served as the main Mughal residence before the capital moved to Delhi.</description>
+            <history>Built by Akbar from 1565 and later enriched with marble palaces by Shah Jahan.</history>
+            <visitingInfo>Inside are the Diwan-i-Aam, Diwan-i-Khas, Jahangiri Mahal and Musamman Burj, from which the Taj Mahal is visible.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Taj Mahal, Jama Masjid Agra</nearby>
+            <tips>Hire a licensed guide and look for the Taj view from Musamman Burj.</tips>
+            <wikiTitle>Agra Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Fatehpur Sikri</name>
+            <category>Historical</category>
+            <location>Fatehpur Sikri, near Agra, Uttar Pradesh</location>
+            <description>A UNESCO-listed Mughal capital of red sandstone built by Akbar and abandoned within about fifteen years.</description>
+            <history>Founded by Akbar in 1571 and left empty a few years later, probably because of water shortage.</history>
+            <visitingInfo>The site includes the Jama Masjid, the Buland Darwaza gateway, Panch Mahal and the tomb of Salim Chishti; it lies about an hour from Agra.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Agra Fort, Keoladeo National Park</nearby>
+            <tips>Start early and use official guides rather than unofficial touts.</tips>
+            <wikiTitle>Fatehpur Sikri</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Tomb of Itimad-ud-Daulah</name>
+            <category>Monument</category>
+            <location>Left bank of the Yamuna, Agra, Uttar Pradesh</location>
+            <description>An exquisite marble tomb with fine inlay work, often called the Baby Taj.</description>
+            <history>Built between 1622 and 1628 by Nur Jahan for her father Mirza Ghiyas Beg.</history>
+            <visitingInfo>Smaller and quieter than the Taj, with delicate pietra dura inlay and carved lattice screens.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Mehtab Bagh, Chini Ka Rauza</nearby>
+            <tips>Visit in the morning for fewer visitors and better light.</tips>
+            <wikiTitle>Tomb of Itimad-ud-Daulah</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Mehtab Bagh</name>
+            <category>Nature</category>
+            <location>Across the Yamuna from the Taj Mahal, Agra, Uttar Pradesh</location>
+            <description>A Mughal-style garden across the Yamuna that gives a famous view of the Taj Mahal.</description>
+            <history>Part of a line of Mughal gardens along the river, restored by the Archaeological Survey of India in the early 21st century.</history>
+            <visitingInfo>Best visited at sunset, when the Taj glows across the river.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Taj Mahal, Tomb of Itimad-ud-Daulah</nearby>
+            <tips>Come at sunset and bring a camera.</tips>
+            <wikiTitle>Mehtab Bagh</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Akbar's Tomb</name>
+            <category>Monument</category>
+            <location>Sikandra, Agra, Uttar Pradesh</location>
+            <description>The grand red sandstone mausoleum of Emperor Akbar, set in a large garden with a monumental gateway.</description>
+            <history>Begun by Akbar himself and completed by his son Jahangir in the early 17th century.</history>
+            <visitingInfo>Deer roam the gardens and the four-minaret gateway is richly decorated.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Agra Fort, Mathura Road</nearby>
+            <tips>Look closely at the inlaid and carved gateway.</tips>
+            <wikiTitle>Akbar's Tomb</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Jama Masjid Agra</name>
+            <category>Religious</category>
+            <location>Near Agra Fort, Agra, Uttar Pradesh</location>
+            <description>A large red sandstone and marble mosque built opposite Agra Fort.</description>
+            <history>Built in 1648 by Jahanara Begum, daughter of Shah Jahan.</history>
+            <visitingInfo>Open to visitors with modest dress and set amid a lively old market.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Agra Fort, Kinari Bazaar</nearby>
+            <tips>Dress modestly and avoid prayer times.</tips>
+            <wikiTitle>Jama Masjid, Agra</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chini Ka Rauza</name>
+            <category>Monument</category>
+            <location>Yamuna riverfront, Agra, Uttar Pradesh</location>
+            <description>A 17th-century tomb decorated with glazed tilework in the Persian style.</description>
+            <history>Built around 1635 as the tomb of Afzal Khan Allami, a poet and minister under Shah Jahan.</history>
+            <visitingInfo>A quiet, little-visited site on the riverbank.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Tomb of Itimad-ud-Daulah, Mehtab Bagh</nearby>
+            <tips>Combine it with a visit to Itimad-ud-Daulah.</tips>
+            <wikiTitle>Chini Ka Rauza</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Keetham Lake</name>
+            <category>Nature</category>
+            <location>Sur Sarovar, Keetham, near Agra, Uttar Pradesh</location>
+            <description>A wetland bird sanctuary, also called Sur Sarovar, with many resident and migratory birds and a nearby bear rescue centre.</description>
+            <history>Notified as a bird sanctuary in the early 1990s and named after the poet Surdas.</history>
+            <visitingInfo>About 20 km from Agra; best for birdwatching in winter.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Sikandra, Mathura Road</nearby>
+            <tips>Carry binoculars and go early in the morning.</tips>
+            <wikiTitle>Keetham Lake</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Keoladeo National Park</name>
+            <category>Nature</category>
+            <location>Bharatpur, Rajasthan, near Agra</location>
+            <description>A UNESCO World Heritage wetland near Bharatpur, famous for thousands of migratory birds.</description>
+            <history>Created as a duck-hunting reserve by the rulers of Bharatpur in the 18th century and protected as a national park in 1982.</history>
+            <visitingInfo>About 55 km from Agra; explore by bicycle or cycle-rickshaw along shaded paths.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>Full day trip</duration>
+            <nearby>Fatehpur Sikri</nearby>
+            <tips>Hire a naturalist guide and rent a bicycle.</tips>
+            <wikiTitle>Keoladeo National Park</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Varanasi" state="Uttar Pradesh" tagline="The Spiritual Capital" cover="Dashashwamedh Ghat">
+        <summary>One of the world's oldest living cities on the Ganga, where pilgrims, rituals and music flow from dawn to the evening aarti.</summary>
+        <place>
+            <name>Kashi Vishwanath Temple</name>
+            <category>Religious</category>
+            <location>Lahori Tola, Varanasi, Uttar Pradesh</location>
+            <description>One of the most sacred Shiva temples in Hinduism and one of the twelve Jyotirlingas.</description>
+            <history>The present temple was built in 1780 by Maharani Ahilyabai Holkar of Indore.</history>
+            <visitingInfo>Security is strict and phones and bags are not allowed inside; a corridor now links the temple to the Ganga ghats.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Dashashwamedh Ghat, Annapurna Temple</nearby>
+            <tips>Travel light and go early to avoid queues.</tips>
+            <wikiTitle>Kashi Vishwanath Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Dashashwamedh Ghat</name>
+            <category>Religious</category>
+            <location>Varanasi, Uttar Pradesh</location>
+            <description>The main and liveliest ghat of Varanasi, famous for the grand Ganga Aarti held each evening.</description>
+            <history>Associated by tradition with a sacrifice by Brahma and rebuilt in the 18th century.</history>
+            <visitingInfo>Arrive early to find a place for the aarti; boat rides start here.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Kashi Vishwanath Temple, Manikarnika Ghat</nearby>
+            <tips>Arrive an hour early for a good spot and ignore touts.</tips>
+            <wikiTitle>Dashashwamedh Ghat</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Assi Ghat</name>
+            <category>Religious</category>
+            <location>Southern end of the ghats, Varanasi, Uttar Pradesh</location>
+            <description>A calmer ghat at the southern end, known for sunrise gatherings, yoga, music and cultural events.</description>
+            <history>Described in texts as lying where the Assi stream meets the Ganga.</history>
+            <visitingInfo>Sunrise is the best time, when morning rituals and music programmes are held.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Tulsi Ghat, Banaras Hindu University</nearby>
+            <tips>Come at dawn for the best light and atmosphere.</tips>
+            <wikiTitle>Assi Ghat</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Manikarnika Ghat</name>
+            <category>Religious</category>
+            <location>Varanasi, Uttar Pradesh</location>
+            <description>The principal cremation ghat of Varanasi, central to Hindu beliefs about liberation.</description>
+            <history>Traditionally regarded as one of the oldest and most sacred cremation grounds on the Ganga.</history>
+            <visitingInfo>Visitors should observe respectfully from a distance and avoid photographing rituals.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Dashashwamedh Ghat, Kashi Vishwanath Temple</nearby>
+            <tips>Do not photograph funerals and ignore anyone demanding money.</tips>
+            <wikiTitle>Manikarnika Ghat</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Sarnath</name>
+            <category>Historical</category>
+            <location>Sarnath, Varanasi, Uttar Pradesh</location>
+            <description>The place where the Buddha gave his first teaching, with monastery ruins, stupas and a museum.</description>
+            <history>After enlightenment at Bodh Gaya the Buddha taught here; the emperor Ashoka later raised monuments at the site.</history>
+            <visitingInfo>The archaeological park and the Sarnath Museum, home of the Ashoka Lion Capital, are the main stops; check the museum's weekly closing day.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Dhamek Stupa, Mulagandha Kuti Vihar</nearby>
+            <tips>Visit the museum to see the Lion Capital, India's national emblem.</tips>
+            <wikiTitle>Sarnath</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Dhamek Stupa</name>
+            <category>Monument</category>
+            <location>Sarnath, Varanasi, Uttar Pradesh</location>
+            <description>A massive cylindrical stupa marking the spot where the Buddha is believed to have given his first sermon.</description>
+            <history>Built around the 5th or 6th century CE over an earlier Mauryan structure.</history>
+            <visitingInfo>The lower part is covered in fine geometric and floral carvings, set in a peaceful park.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Sarnath Museum, Chaukhandi Stupa</nearby>
+            <tips>Combine with the Sarnath Museum in the same visit.</tips>
+            <wikiTitle>Dhamek Stupa</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Ramnagar Fort</name>
+            <category>Historical</category>
+            <location>Ramnagar, across the Ganga from Varanasi, Uttar Pradesh</location>
+            <description>An 18th-century fort and palace on the eastern bank of the Ganga, long the residence of the Maharaja of Benares.</description>
+            <history>Built in 1750 by Raja Balwant Singh of Kashi.</history>
+            <visitingInfo>A museum inside displays vintage cars, costumes and weapons; it can be reached by boat or bridge.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Assi Ghat, Tulsi Ghat</nearby>
+            <tips>Cross the river by boat for a fine view of the ghats.</tips>
+            <wikiTitle>Ramnagar Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Durga Temple Varanasi</name>
+            <category>Religious</category>
+            <location>Durgakund, Varanasi, Uttar Pradesh</location>
+            <description>A red ochre temple dedicated to Goddess Durga, built in the Nagara style and often called the Monkey Temple.</description>
+            <history>Built in the 18th century, according to tradition by a Bengali queen.</history>
+            <visitingInfo>Stands beside the rectangular Durga Kund pond and is especially busy during Navratri.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Sankat Mochan Hanuman Temple, Banaras Hindu University</nearby>
+            <tips>Visit during Navratri to see the biggest celebrations.</tips>
+            <wikiTitle>Durga Temple, Varanasi</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Sankat Mochan Hanuman Temple</name>
+            <category>Religious</category>
+            <location>Assi, Varanasi, Uttar Pradesh</location>
+            <description>A well-known Hanuman temple, famous for a week-long classical music festival each spring.</description>
+            <history>Founded in the early 20th century by Madan Mohan Malaviya.</history>
+            <visitingInfo>Open from early morning and crowded on Tuesdays and Saturdays.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>30 to 45 minutes</duration>
+            <nearby>Assi Ghat, Banaras Hindu University</nearby>
+            <tips>Avoid Tuesdays and Saturdays if you prefer smaller crowds.</tips>
+            <wikiTitle>Sankat Mochan Hanuman Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Banaras Hindu University</name>
+            <category>Heritage</category>
+            <location>Lanka, Varanasi, Uttar Pradesh</location>
+            <description>One of Asia's largest residential universities, with a green campus, the Bharat Kala Bhavan museum and the New Vishwanath Temple.</description>
+            <history>Founded in 1916 by Madan Mohan Malaviya.</history>
+            <visitingInfo>The campus is open to visitors; the New Vishwanath Temple and the museum are the main draws.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 hours</duration>
+            <nearby>Assi Ghat, Durga Temple</nearby>
+            <tips>Visit on a weekday morning and respect campus rules.</tips>
+            <wikiTitle>Banaras Hindu University</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Kolkata" state="West Bengal" tagline="City of Joy" cover="Victoria Memorial, Kolkata">
+        <summary>The former capital of British India: grand colonial buildings, riverside temples, literature, sweets and a lively intellectual culture.</summary>
+        <place>
+            <name>Victoria Memorial</name>
+            <category>Monument</category>
+            <location>Queen's Way, Kolkata, West Bengal</location>
+            <description>A white marble museum and monument set in landscaped gardens, dedicated to Queen Victoria.</description>
+            <history>Built between 1906 and 1921 to a design by William Emerson.</history>
+            <visitingInfo>Galleries cover the city's colonial history, and the gardens and an evening light-and-sound show are popular; check the weekly closing day.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>St. Paul's Cathedral, Maidan, Indian Museum</nearby>
+            <tips>Visit in the evening for the gardens and illuminated building.</tips>
+            <wikiTitle>Victoria Memorial, Kolkata</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Howrah Bridge</name>
+            <category>Monument</category>
+            <location>Over the Hooghly, Kolkata, West Bengal</location>
+            <description>A famous steel cantilever bridge, among the busiest of its type in the world, linking Kolkata and Howrah.</description>
+            <history>Opened in 1943 and renamed Rabindra Setu in 1965.</history>
+            <visitingInfo>Walk across for river views and look down at the Mullick Ghat flower market.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Mullick Ghat Flower Market, Howrah Station</nearby>
+            <tips>Cross at sunrise or sunset and take care in the traffic.</tips>
+            <wikiTitle>Howrah Bridge</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Dakshineswar Kali Temple</name>
+            <category>Religious</category>
+            <location>Dakshineswar, Kolkata, West Bengal</location>
+            <description>A major Kali temple on the Hooghly, closely linked with the saint Ramakrishna Paramahamsa.</description>
+            <history>Built in 1855 by Rani Rashmoni.</history>
+            <visitingInfo>The large complex includes twelve Shiva temples and riverside steps.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Belur Math</nearby>
+            <tips>Go early in the morning; footwear is not allowed in the temple.</tips>
+            <wikiTitle>Dakshineswar Kali Temple</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Belur Math</name>
+            <category>Religious</category>
+            <location>Belur, Howrah, West Bengal</location>
+            <description>Headquarters of the Ramakrishna Mission, with a temple blending Hindu, Islamic and Christian architectural motifs on the Hooghly.</description>
+            <history>Established by Swami Vivekananda in the late 19th century; the main temple was completed in 1938.</history>
+            <visitingInfo>A peaceful riverside campus; ferries connect it with Dakshineswar.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Dakshineswar Kali Temple</nearby>
+            <tips>Visit in the evening for aarti and dress modestly.</tips>
+            <wikiTitle>Belur Math</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Indian Museum</name>
+            <category>Museum</category>
+            <location>Park Street, Kolkata, West Bengal</location>
+            <description>The oldest and one of the largest museums in India, with galleries of art, archaeology, anthropology, geology and zoology.</description>
+            <history>Founded in 1814 by the Asiatic Society of Bengal.</history>
+            <visitingInfo>Highlights include the Egyptian mummy and the Bharhut stupa gallery; check the weekly closing day.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Park Street, Victoria Memorial</nearby>
+            <tips>Allow plenty of time, as the collections are vast.</tips>
+            <wikiTitle>Indian Museum</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>St. Paul's Cathedral</name>
+            <category>Religious</category>
+            <location>Cathedral Road, Kolkata, West Bengal</location>
+            <description>An Anglican cathedral in Indo-Gothic style with a tall tower and stained glass.</description>
+            <history>Consecrated in 1847 to a design by Major William Nairn Forbes.</history>
+            <visitingInfo>A calm interior with fine glass; services are held on Sundays.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>45 minutes</duration>
+            <nearby>Victoria Memorial, Maidan</nearby>
+            <tips>Visit around Christmas to see the cathedral decorated.</tips>
+            <wikiTitle>St. Paul's Cathedral, Kolkata</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Marble Palace</name>
+            <category>Heritage</category>
+            <location>Muktaram Babu Street, Kolkata, West Bengal</location>
+            <description>A 19th-century mansion filled with marble floors, statues, chandeliers and European paintings.</description>
+            <history>Built in 1835 by the wealthy merchant Raja Rajendra Mullick.</history>
+            <visitingInfo>Entry has usually required prior permission, so check current rules before visiting.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Jorasanko Thakur Bari, Chitpur</nearby>
+            <tips>Arrange permission in advance and dress modestly.</tips>
+            <wikiTitle>Marble Palace, Kolkata</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Eden Gardens</name>
+            <category>Entertainment</category>
+            <location>BBD Bagh, Kolkata, West Bengal</location>
+            <description>One of the most famous cricket stadiums in the world, with a unique atmosphere on match days.</description>
+            <history>Established in 1864 and named after the Eden sisters, relatives of a British governor-general.</history>
+            <visitingInfo>Best experienced during a match; tickets are needed.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Maidan, Fort William</nearby>
+            <tips>Book tickets early and arrive early to enter.</tips>
+            <wikiTitle>Eden Gardens</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Science City</name>
+            <category>Entertainment</category>
+            <location>EM Bypass, Kolkata, West Bengal</location>
+            <description>One of the largest science centres in South Asia, with interactive exhibits, a space theatre and an evolution park.</description>
+            <history>Opened in the 1990s as a centre for popular science education.</history>
+            <visitingInfo>A full-day outing for families, with galleries and shows for children.</visitingInfo>
+            <bestTime>October to March.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Nicco Park, Eco Park</nearby>
+            <tips>Pre-book show tickets to save time.</tips>
+            <wikiTitle>Science City, Kolkata</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Kalighat Temple</name>
+            <category>Religious</category>
+            <location>Kalighat, Kolkata, West Bengal</location>
+            <description>One of the 51 Shakti Peethas and an important pilgrimage site for devotees of Kali.</description>
+            <history>The present temple structure was completed in the early 19th century.</history>
+            <visitingInfo>Large crowds and queues are normal; modest dress is expected.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Alipore Zoo, Victoria Memorial</nearby>
+            <tips>Go early in the morning to avoid long queues.</tips>
+            <wikiTitle>Kalighat Kali Temple</wikiTitle>
+            <image />
+        </place>
+    </city>
+    <city name="Goa" state="Goa" tagline="Pearl of the Orient" cover="Basilica of Bom Jesus">
+        <summary>Sun, sand and a layered Indo-Portuguese heritage: UNESCO churches, hilltop forts, spice-scented villages and a long Arabian Sea coast.</summary>
+        <place>
+            <name>Basilica of Bom Jesus</name>
+            <category>Religious</category>
+            <location>Old Goa, Goa</location>
+            <description>A UNESCO-listed church that holds the relics of St Francis Xavier.</description>
+            <history>Built between 1594 and 1605 during Portuguese rule.</history>
+            <visitingInfo>Part of the Old Goa churches complex; modest dress is expected.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Se Cathedral, Church of St Francis of Assisi</nearby>
+            <tips>Cover shoulders and knees and visit with Se Cathedral in the same morning.</tips>
+            <wikiTitle>Basilica of Bom Jesus</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Fort Aguada</name>
+            <category>Historical</category>
+            <location>Candolim, Goa</location>
+            <description>A 17th-century Portuguese fort overlooking the Arabian Sea, with an old lighthouse.</description>
+            <history>Built in 1612 to guard the entrance of the Mandovi river against Dutch and Maratha ships.</history>
+            <visitingInfo>The fort takes its name from the Portuguese word for water, after its freshwater spring; the lighthouse is among the oldest in Asia.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Candolim Beach, Sinquerim Beach</nearby>
+            <tips>Visit at sunset for the best light over the sea.</tips>
+            <wikiTitle>Fort Aguada</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Baga Beach</name>
+            <category>Beach</category>
+            <location>Baga, North Goa</location>
+            <description>A lively North Goa beach famed for water sports, beach shacks and nightlife.</description>
+            <history>Once a quiet fishing village, it grew into a major tourist hub from the 1970s onward.</history>
+            <visitingInfo>Water sports and shacks line the sand; swim only in marked areas.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Calangute Beach, Anjuna Beach</nearby>
+            <tips>Check flag warnings and use licensed water-sport operators.</tips>
+            <wikiTitle>Baga Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Calangute Beach</name>
+            <category>Beach</category>
+            <location>Calangute, North Goa</location>
+            <description>The largest beach in North Goa, often called the Queen of Beaches.</description>
+            <history>It rose to popularity as a tourist destination in the late 20th century.</history>
+            <visitingInfo>Crowded in peak season, with shacks, markets and water sports.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Baga Beach, Fort Aguada</nearby>
+            <tips>Go in the morning for a quieter experience.</tips>
+            <wikiTitle>Calangute Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Anjuna Beach</name>
+            <category>Beach</category>
+            <location>Anjuna, North Goa</location>
+            <description>A rocky, laid-back beach known for its weekly flea market and sunset spots.</description>
+            <history>It became known during the hippie era of the 1960s.</history>
+            <visitingInfo>The famous flea market is held once a week, usually on Wednesdays.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>2 to 3 hours</duration>
+            <nearby>Chapora Fort, Vagator Beach</nearby>
+            <tips>Reach the flea market early and bargain politely.</tips>
+            <wikiTitle>Anjuna Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Dudhsagar Falls</name>
+            <category>Adventure</category>
+            <location>Bhagwan Mahavir Wildlife Sanctuary, Goa</location>
+            <description>A tall four-tiered waterfall on the Mandovi river, among the tallest in India, set in forest at the Goa and Karnataka border.</description>
+            <history>Its name means Sea of Milk, from the white spray that cascades down the cliff.</history>
+            <visitingInfo>Usually reached by a jeep safari through the forest; access can be restricted during the monsoon.</visitingInfo>
+            <bestTime>October to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Bhagwan Mahavir Wildlife Sanctuary, Tambdi Surla Temple</nearby>
+            <tips>Check access conditions and wear shoes with good grip.</tips>
+            <wikiTitle>Dudhsagar Falls</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Se Cathedral</name>
+            <category>Religious</category>
+            <location>Old Goa, Goa</location>
+            <description>One of the largest churches in Asia, dedicated to St Catherine of Alexandria and known for its Golden Bell.</description>
+            <history>Construction began in the 16th century and took many decades to complete.</history>
+            <visitingInfo>Part of the UNESCO-listed Old Goa complex.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>45 minutes</duration>
+            <nearby>Basilica of Bom Jesus, Church of St Francis of Assisi</nearby>
+            <tips>Visit together with Bom Jesus in one trip.</tips>
+            <wikiTitle>Sé Cathedral, Goa</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Chapora Fort</name>
+            <category>Historical</category>
+            <location>Chapora, North Goa</location>
+            <description>A ruined hilltop fort with sweeping views over Vagator beach and the Chapora river.</description>
+            <history>Built by the Adil Shahi sultans of Bijapur and rebuilt by the Portuguese in the early 17th century.</history>
+            <visitingInfo>A short uphill walk leads to ruined walls and viewpoints.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 hour</duration>
+            <nearby>Vagator Beach, Anjuna Beach</nearby>
+            <tips>Go in late afternoon for sunset and wear shoes with grip.</tips>
+            <wikiTitle>Chapora Fort</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Palolem Beach</name>
+            <category>Beach</category>
+            <location>Canacona, South Goa</location>
+            <description>A crescent-shaped, calmer beach in South Goa lined with palm trees and known for kayaking.</description>
+            <history>A fishing area that has become a quieter alternative to the busy northern beaches.</history>
+            <visitingInfo>Kayaking and dolphin-spotting trips are popular.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>Half day</duration>
+            <nearby>Agonda Beach, Cabo de Rama Fort</nearby>
+            <tips>Try a sunrise kayak ride.</tips>
+            <wikiTitle>Palolem Beach</wikiTitle>
+            <image />
+        </place>
+        <place>
+            <name>Fontainhas</name>
+            <category>Heritage</category>
+            <location>Panaji, Goa</location>
+            <description>A charming Latin Quarter of Panaji with narrow lanes, colourful Portuguese-style houses and the Chapel of St Sebastian.</description>
+            <history>Developed in the 19th century as a residential area of Portuguese-era Goa.</history>
+            <visitingInfo>Best explored on foot, with art galleries and cafes in the lanes.</visitingInfo>
+            <bestTime>November to February.</bestTime>
+            <duration>1 to 2 hours</duration>
+            <nearby>Panaji Church, Miramar Beach</nearby>
+            <tips>Walk in the morning and look for the traditional tile nameplates.</tips>
+            <wikiTitle>Fontainhas</wikiTitle>
+            <image />
+        </place>
+    </city>
+</touristCities>

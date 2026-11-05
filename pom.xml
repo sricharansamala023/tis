@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tourism</groupId>
+    <artifactId>TouristInformationSystem</artifactId>
+    <version>1.0.0</version>
+    <packaging>war</packaging>
+
+    <name>Tourist Information System</name>
+    <description>PBLJ Project No. 16 - Multi-city Tourist Information System for India using Servlets, JSP and XML</description>
+
+    <properties>
+        <maven.compiler.release>25</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <failOnMissingWebXml>true</failOnMissingWebXml>
+    </properties>
+
+    <dependencies>
+        <!-- Servlet API - provided by Tomcat at runtime -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- JSP API - provided by Tomcat at runtime -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- JSTL for <c:forEach>, <c:if>, <fn:...> in JSP pages -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>TouristInformationSystem</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+                <configuration>
+                    <failOnMissingWebXml>true</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--
+        OPTIONAL one-command runner (no separate Tomcat install needed):
+            mvn clean package cargo:run -Pcargo
+        It downloads Tomcat 9 and deploys the WAR at http://localhost:8080/TouristInformationSystem/
+        The profile is inactive by default, so normal builds never touch it.
+    -->
+    <profiles>
+        <profile>
+            <id>cargo</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.cargo</groupId>
+                        <artifactId>cargo-maven3-plugin</artifactId>
+                        <version>1.10.13</version>
+                        <configuration>
+                            <container>
+                                <containerId>tomcat9x</containerId>
+                                <artifactInstaller>
+                                    <groupId>org.apache.tomcat</groupId>
+                                    <artifactId>tomcat</artifactId>
+                                    <version>9.0.89</version>
+                                </artifactInstaller>
+                            </container>
+                            <configuration>
+                                <properties>
+                                    <cargo.servlet.port>8080</cargo.servlet.port>
+                                </properties>
+                            </configuration>
+                            <deployables>
+                                <deployable>
+                                    <type>war</type>
+                                    <properties>
+                                        <context>/TouristInformationSystem</context>
+                                    </properties>
+                                </deployable>
+                            </deployables>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>
